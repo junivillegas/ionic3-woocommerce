@@ -1,0 +1,17 @@
+page-home {
+  .feature_home{
+    position: relative;
+    h1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 1.5rem;
+      padding: 5px 10px;
+      background: #ff5a5f;
+      color: #fff;
+      font-weight: bold;
+      opacity: 0.9;
+      box-shadow: 1px 2px 7px 2px #6c6b6b;
+    }
+  }
+}

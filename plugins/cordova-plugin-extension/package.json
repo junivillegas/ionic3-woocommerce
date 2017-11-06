@@ -1,0 +1,58 @@
+{
+  "_from": "cordova-plugin-extension",
+  "_id": "cordova-plugin-extension@1.5.2",
+  "_inBundle": false,
+  "_integrity": "sha1-l97LYoA7n7PmewOjF5e/5RLN9Ak=",
+  "_location": "/cordova-plugin-extension",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-extension",
+    "name": "cordova-plugin-extension",
+    "escapedName": "cordova-plugin-extension",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-extension/-/cordova-plugin-extension-1.5.2.tgz",
+  "_shasum": "97decb62803b9fb3e67b03a31797bfe512cdf409",
+  "_spec": "cordova-plugin-extension",
+  "_where": "/Users/jaiville/Proyects/Personal/IonicAldeaBambu/aldea/node_modules",
+  "author": {
+    "name": "Liming Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-extension/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-extension",
+    "platforms": [
+      "android",
+      "ios",
+      "amazon-fireos"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin common extension with adapter interface",
+  "homepage": "https://github.com/floatinghotpot/cordova-extension#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "extension",
+    "rjfun"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-extension",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floatinghotpot/cordova-extension.git"
+  },
+  "version": "1.5.2"
+}

@@ -1,0 +1,23 @@
+<!-- Header -->
+<ion-header>
+  <ion-toolbar color="secondary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title center>Products</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item text-wrap *ngFor="let category of categories" (click)="openCategoryPage(category)">
+      <ion-thumbnail item-start >
+        <img-loader *ngIf="category.image.length != 0" useImg src="{{category.image.src}}" useImg></img-loader>
+      </ion-thumbnail>
+
+      <h2> {{ category.name }} </h2>
+      <p> {{ category.description }}</p>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

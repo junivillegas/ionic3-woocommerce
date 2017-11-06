@@ -1,0 +1,98 @@
+{
+  "_from": "cordova-plugin-admobpro",
+  "_id": "cordova-plugin-admobpro@2.29.23",
+  "_inBundle": false,
+  "_integrity": "sha1-bpsHRNzlaYU+ggy/omRoFgEo+Pc=",
+  "_location": "/cordova-plugin-admobpro",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-admobpro",
+    "name": "cordova-plugin-admobpro",
+    "escapedName": "cordova-plugin-admobpro",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-admobpro/-/cordova-plugin-admobpro-2.29.23.tgz",
+  "_shasum": "6e9b0744dce569853e820cbfa26468160128f8f7",
+  "_spec": "cordova-plugin-admobpro",
+  "_where": "/Users/jaiville/Proyects/Personal/IonicAldeaBambu/aldea/node_modules",
+  "author": {
+    "name": "Liming Xie"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-admob-pro/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-admobpro",
+    "platforms": [
+      "android",
+      "ios",
+      "amazon-fireos",
+      "wp8"
+    ]
+  },
+  "deprecated": false,
+  "description": "Ultimate Cordova Plugin for Google AdMob and DFP to monetize hybrid apps. Show mobile Ad with single line of JavaScript. Compatible with Cordova CLI, PhoneGap Build, Intel XDK/Crosswalk, Google ChromeApp, Ionic, Meteor, etc.",
+  "homepage": "https://github.com/floatinghotpot/cordova-admob-pro#readme",
+  "keywords": [
+    "cordova",
+    "admob",
+    "plugin",
+    "phonegap",
+    "intel-xdk",
+    "intel",
+    "xdk",
+    "crosswalk",
+    "ionic",
+    "meteor",
+    "ad",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-amazon-fireos",
+    "google",
+    "ads",
+    "eclipse",
+    "android-studio",
+    "simple",
+    "easy",
+    "android",
+    "ios",
+    "windows",
+    "phonegap",
+    "monetization",
+    "monetisation",
+    "money",
+    "banner",
+    "interstitial",
+    "advertisement",
+    "advertising",
+    "earn",
+    "cordova-admob",
+    "admobpro",
+    "iad",
+    "flurry",
+    "mobfox",
+    "mopub",
+    "inmobi",
+    "chartboost",
+    "domob",
+    "rjfun"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-admobpro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floatinghotpot/cordova-admob-pro.git"
+  },
+  "version": "2.29.23"
+}

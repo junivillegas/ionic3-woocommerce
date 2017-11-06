@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ac.aldeabambu"
+        }
+    }
+}

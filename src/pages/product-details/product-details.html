@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ product.name | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+
+    <ion-slides #slides>
+      <ion-slide *ngFor="let image of product.images">
+        <img-loader src="{{image.src}}" useImg></img-loader>
+      </ion-slide>
+    </ion-slides>
+
+    <ion-card-content>
+      <ion-card-title>
+        <ion-chip color="dark" *ngFor="let cat of product.categories" center>
+          <ion-label color="light"> {{ cat.name }} </ion-label>
+        </ion-chip>
+      </ion-card-title>
+
+      <p *ngIf="product.short_description" [innerHTML]="product.short_description"></p>
+
+      <button ion-button icon-left block outline color="danger">
+        <ion-icon name="basket"></ion-icon> Precio {{product.price}}
+      </button>
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card *ngIf="reviews.length > 0">
+    <ion-card-content>
+      <ion-card-title>
+        {{ REVIEWS | translate }}
+      </ion-card-title>
+
+      <ion-grid>
+        <ion-row *ngFor="let review of reviews">
+          <ion-col col-4>
+            <b>{{ review.reviewer_name }}</b>
+            <br/>
+            <span *ngIf="review.rating >= 1">
+              <ion-icon style="color: #d4af37" small name="star"></ion-icon>
+            </span>
+            <span *ngIf="review.rating >= 2">
+              <ion-icon style="color: #d4af37" small name="star"></ion-icon>
+            </span>
+            <span *ngIf="review.rating >= 3">
+              <ion-icon style="color: #d4af37" small name="star"></ion-icon>
+            </span>
+            <span *ngIf="review.rating >= 4">
+              <ion-icon style="color: #d4af37" small name="star"></ion-icon>
+            </span>
+            <span *ngIf="review.rating >= 5">
+              <ion-icon style="color: #d4af37" small name="star"></ion-icon>
+            </span>
+
+          </ion-col>
+          <ion-col col-8>
+            {{ review.review }}
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
