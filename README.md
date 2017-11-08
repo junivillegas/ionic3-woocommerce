@@ -6,15 +6,15 @@
 - [AdMob Plugin Pro] (https://github.com/floatinghotpot/cordova-admob-pro)
 
 
-##Woocommerce Api Key##
-- [Get api key] (https://docs.woocommerce.com/document/woocommerce-rest-api/)
-- [Add key in project] (src/providers/woocommerce/woocommerce.ts)
+## Woocommerce Api Key
+- [ Get api key ] ( https://docs.woocommerce.com/document/woocommerce-rest-api/ )
+- [ Add key in project ]  ( src/providers/woocommerce/woocommerce.ts )
 
-##Onesignal Api Key##
+## Onesignal Api Key
 - [Get api key] (https://documentation.onesignal.com/docs/accounts-and-keys#section-keys-ids)
 - [Add key in project] (src/app/app.component.ts)
 
-##AdMob Key##
+## AdMob Key 
 - [Create admob account] (https://www.google.es/admob/)
 - [AdMob Plugin Pro] (https://github.com/floatinghotpot/cordova-admob-pro)
 - [Config in project] (src/providers/admob-pro/admob-pro.ts)
