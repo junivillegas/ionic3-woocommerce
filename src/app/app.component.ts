@@ -54,7 +54,7 @@ export class MyApp {
 
         this
           .oneSignal
-          .startInit('3dfbcd48-d6a3-42f5-b115-b6813f0f297b');
+          .startInit('xxxxxxxxxxxx');
 
         this
           .oneSignal
